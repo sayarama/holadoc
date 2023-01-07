@@ -1,1 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.box {
+    height: 125vh;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 69%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+    font-family: 'Poppins';
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left p{
+    margin-left: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.left img{
+    width: 50px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right button{
+    margin-left: 50px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.inner-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text{
+    font-family: 'Poppins';
+    width: 30%;
+    font-size: 1.5em;
+}
+
+
+.btn1{
+    margin-top: 15px;
+    border: none;
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #203271;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/profile.png);
+    border-radius: 100px;
+    background-color: #203271;
+}
+
+.review{
+    width: 17vw;
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    font-family: 'Poppins';
+    top: 20%;
+    left: 45%;
+    box-shadow: -33px 17px 70px 8px rgba(0,0,0,0.08);
+-webkit-box-shadow: -33px 17px 70px 8px rgba(0,0,0,0.08);
+-moz-box-shadow: -33px 17px 70px 8px rgba(0,0,0,0.08);
+padding: 15px;
+}
+
+.review p{
+    font-size: .9em;
+}
+
+
+
+.image img{
+    width: 540px;
+}
+
+.bottom{
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    background-color: #203271;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-box{
+    color: #A6ADC6;
+    display: flex;
+    width: 20%;
+}
+
+.bottom-box b{
+    color: white;
+}
+
+.icon{
+    margin-right: 20px;
+}
